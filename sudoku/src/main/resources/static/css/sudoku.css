@@ -1,0 +1,95 @@
+input[type=text] {
+    background-color: #ffffff;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: normal;
+     color: black;
+     width: 30px;
+     height: 30px;
+     font-family: "Lucida Console", "Times New Roman", Times, serif;
+}
+input[type=text].correct{
+	font-weight: bold;
+	font-size: 25px;
+    background-color: #50D050 !important;
+    color: white !important;
+    text-shadow: 1px 2px 2px #000000;
+    
+}
+
+input[type=text].right{
+	font-weight: bold;
+	font-size: 25px;
+    color: #50D050;
+    text-shadow: 1px 2px 2px #000000;
+}
+
+input[type=text].porta{
+	font-weight: bold;
+	font-size: 16px;
+    color: #000000;
+    text-shadow: 1p 2px 2px #000000;
+    size: 4;
+    width: 50px;
+}
+
+.portWarning{
+	font-weight: bold;
+	font-size: 16px;
+    color: red;
+    text-shadow: 1p 2px 2px #ffffff;
+}
+
+input[type=text].wrong{
+	font-weight: bold;
+	font-size: 20px;
+    color: #FF0000;
+    text-shadow: 1px 2px 2px #000000;
+}
+input[type="text"]:disabled {
+    background: #dddddd;
+    font-weight: bold;
+}
+button {
+    background-color: #c0c0c0; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px white, -1px -1px #000;
+    margin: 8px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: "Lucida Console", "Times New Roman", Times, serif;
+}
+div{
+	text-align: center;
+	align-content: center;
+	margin: auto;
+	width:50%;
+	background-color: #c0c0c0;
+	background-image: url("../img/bg.png");
+	
+}
+.title{
+	text-align: center;
+	background-color: #dddddd;
+	text-shadow: 1px 1px white, -1px -1px #444;
+    color: #c0c0c0;
+    border: 2px solid #ffffff;
+    font-weight: bold;
+	font-size: 40px;
+	font-family: "Lucida Console", "Times New Roman", Times, serif;
+	border-radius: 8px;
+}
+body{
+	text-align:center;
+	align-content: center;
+	
+}
+.soluzionePerTest{
+	display:none;
+}
